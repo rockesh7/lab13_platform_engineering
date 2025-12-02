@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rockesh-app
+  description: Flask microservice with metrics
+  annotations:
+    github.com/project-slug: rockesh7/lab13_platform_engineering
+    grafana/dashboard-url: http://54.205.226.246:3001/d/adv5nz7/app-prometheus
+spec:
+  type: service
+  owner: user:rockesh7
+  lifecycle: production
