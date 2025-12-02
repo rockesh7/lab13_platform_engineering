@@ -7,7 +7,7 @@ metadata:
   annotations:
     github.com/project-slug: rockesh7/lab13_platform_engineering
     grafana/dashboard-url: http://54.205.226.246:3001/d/adv5nz7/app-prometheus
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:docs
 
   links:
     - url: http://54.205.226.246:3001/d/adv5nz7/app-prometheus
